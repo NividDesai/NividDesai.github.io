@@ -7,6 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://nividdesai.github.io'),
   title: "Nivid Desai | AI Engineer",
   description:
     "Professional portfolio of Nivid Desai, AI Engineer specializing in machine learning, NLP, and data visualization.",
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://nivid-desai.github.io",
+    url: "https://nividdesai.github.io",
     title: "Nivid Desai | AI Engineer",
     description:
       "Professional portfolio of Nivid Desai, AI Engineer specializing in machine learning, NLP, and data visualization.",
