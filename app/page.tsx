@@ -35,6 +35,15 @@ export default function Home() {
               <a href="#contact" className="transition-colors hover:text-foreground/80">
                 Contact
               </a>
+              <a 
+                href="https://nivid-desai-portfolio.vercel.app/" 
+                target="_blank" 
+                rel="noreferrer"
+                className="transition-colors hover:text-foreground/80 flex items-center gap-1"
+              >
+                <Code className="h-4 w-4" />
+                Vercel
+              </a>
             </nav>
           </div>
 
@@ -89,6 +98,56 @@ export default function Home() {
                 <div className="relative h-[300px] w-[300px] overflow-hidden rounded-full border-4 border-primary shadow-xl">
                   <Image src="/profile.png" alt="Nivid Desai" fill className="object-cover grayscale" priority />
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Portfolio Links Section */}
+        <section className="py-8 md:py-12 bg-gradient-to-r from-primary/10 to-secondary/10">
+          <div className="container px-4 md:px-6">
+            <div className="mx-auto flex max-w-[58rem] flex-col items-center justify-center gap-6 text-center">
+              <h2 className="text-2xl font-bold leading-[1.1] sm:text-3xl md:text-4xl">View My Portfolios</h2>
+              <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
+                I maintain multiple portfolio versions to showcase my work in different contexts and technologies.
+              </p>
+              <div className="flex flex-col gap-4 min-[400px]:flex-row">
+                <Card className="hover:shadow-lg transition-shadow">
+                  <CardContent className="pt-6">
+                    <div className="flex flex-col items-center space-y-4">
+                      <div className="flex items-center space-x-2">
+                        <Github className="h-6 w-6 text-primary" />
+                        <h3 className="text-lg font-semibold">GitHub Pages Portfolio</h3>
+                      </div>
+                      <p className="text-sm text-muted-foreground text-center">
+                        This portfolio built with Next.js and deployed on GitHub Pages
+                      </p>
+                      <Button variant="outline" asChild>
+                        <a href="https://nividdesai.github.io" target="_blank" rel="noreferrer">
+                          View GitHub Portfolio
+                        </a>
+                      </Button>
+                    </div>
+                  </CardContent>
+                </Card>
+                <Card className="hover:shadow-lg transition-shadow">
+                  <CardContent className="pt-6">
+                    <div className="flex flex-col items-center space-y-4">
+                      <div className="flex items-center space-x-2">
+                        <Code className="h-6 w-6 text-primary" />
+                        <h3 className="text-lg font-semibold">Vercel Portfolio</h3>
+                      </div>
+                      <p className="text-sm text-muted-foreground text-center">
+                        My main portfolio deployed on Vercel with enhanced features
+                      </p>
+                      <Button variant="outline" asChild>
+                        <a href="https://nivid-desai-portfolio.vercel.app/" target="_blank" rel="noreferrer">
+                          View Vercel Portfolio
+                        </a>
+                      </Button>
+                    </div>
+                  </CardContent>
+                </Card>
               </div>
             </div>
           </div>
@@ -563,6 +622,15 @@ export default function Home() {
             <span className="text-muted-foreground">•</span>
             <a href="#contact" className="text-sm text-muted-foreground hover:text-foreground">
               Contact
+            </a>
+            <span className="text-muted-foreground">•</span>
+            <a 
+              href="https://nivid-desai-portfolio.vercel.app/" 
+              target="_blank" 
+              rel="noreferrer"
+              className="text-sm text-muted-foreground hover:text-foreground"
+            >
+              Vercel Portfolio
             </a>
           </div>
         </div>
