@@ -6,10 +6,6 @@ const nextConfig = {
   },
   // GitHub Pages doesn't support trailing slashes
   trailingSlash: false,
-  // Disable server components for static export
-  experimental: {
-    appDir: true,
-  },
 };
 
 export default nextConfig;
