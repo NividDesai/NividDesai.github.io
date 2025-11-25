@@ -222,7 +222,7 @@ export default function Home() {
                     </li>
                     <li>
                       Independently created a suite of AI automation tools, including multi-platform scrapers, custom
-                      Instagram bots, autonomous AI agents with CrewAI, and LLM fine-tuning pipelines
+                      bots, autonomous AI agents with CrewAI, and LLM fine-tuning pipelines
                     </li>
                   </ul>
                 </CardContent>
