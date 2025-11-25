@@ -319,6 +319,12 @@ export default function Home() {
                     <Badge variant="outline">TypeScript</Badge>
                     <Badge variant="outline">OpenAI</Badge>
                   </div>
+                  <Button variant="default" size="sm" className="gap-2" asChild>
+                    <a href="https://github.com/NividDesai/AI-Sales-Enablement-Suite" target="_blank" rel="noreferrer">
+                      <Github className="h-4 w-4 mr-2" />
+                      Code
+                    </a>
+                  </Button>
                 </CardFooter>
               </Card>
               <Card className="flex flex-col hover:shadow-lg transition-shadow">
@@ -341,6 +347,12 @@ export default function Home() {
                     <Badge variant="outline">Whisper</Badge>
                     <Badge variant="outline">Next.js</Badge>
                   </div>
+                  <Button variant="default" size="sm" className="gap-2" asChild>
+                    <a href="https://github.com/NividDesai/Sports-Video-Analyzer" target="_blank" rel="noreferrer">
+                      <Github className="h-4 w-4 mr-2" />
+                      Code
+                    </a>
+                  </Button>
                 </CardFooter>
               </Card>
               <Card className="flex flex-col hover:shadow-lg transition-shadow">
@@ -363,8 +375,8 @@ export default function Home() {
                     <Badge variant="outline">NLP</Badge>
                     <Badge variant="outline">ML</Badge>
                   </div>
-                  <Button variant="ghost" size="sm" asChild>
-                    <a href="https://github.com/NividDesai" target="_blank" rel="noreferrer">
+                  <Button variant="default" size="sm" className="gap-2" asChild>
+                    <a href="https://github.com/NividDesai/YouTube-Analytics-AI" target="_blank" rel="noreferrer">
                       <Github className="h-4 w-4 mr-2" />
                       Code
                     </a>
@@ -392,7 +404,7 @@ export default function Home() {
                     <Badge variant="outline">Gamification</Badge>
                     <Badge variant="outline">Ethics</Badge>
                   </div>
-                  <Button variant="ghost" size="sm" asChild>
+                  <Button variant="default" size="sm" className="gap-2" asChild>
                     <a href="https://v0-ethics-game-cdvnoiykw3x-hy2uhptiy.vercel.app/" target="_blank" rel="noreferrer">
                       <Code className="h-4 w-4 mr-2" />
                       Live
@@ -404,27 +416,83 @@ export default function Home() {
               <Card className="flex flex-col hover:shadow-lg transition-shadow">
                 <CardHeader>
                   <div className="flex items-center gap-2 mb-2">
-                    <Code className="h-5 w-5 text-primary" />
-                    <CardTitle className="text-xl">Data Visualization Dashboard</CardTitle>
+                    <BrainCircuit className="h-5 w-5 text-primary" />
+                    <CardTitle className="text-xl">Sentiment Analysis with BERT</CardTitle>
                   </div>
-                  <CardDescription>Business Intelligence</CardDescription>
+                  <CardDescription>Production-Ready NLP Pipeline</CardDescription>
                 </CardHeader>
                 <CardContent className="flex-grow">
                   <p className="text-sm text-muted-foreground">
-                    An interactive dashboard built with Power BI that visualizes complex datasets and provides
-                    actionable insights for business decision-making.
+                    End-to-end MLOps system for binary app-review sentiment classification: BERT fine-tuning, automated
+                    testing with 100% coverage, CI/CD, evaluation dashboards, and inference scripts ready for deployment.
                   </p>
                 </CardContent>
                 <CardFooter className="flex justify-between">
                   <div className="flex gap-2">
-                    <Badge variant="outline">Power BI</Badge>
-                    <Badge variant="outline">Excel</Badge>
-                    <Badge variant="outline">SQL</Badge>
+                    <Badge variant="outline">BERT</Badge>
+                    <Badge variant="outline">PyTorch</Badge>
+                    <Badge variant="outline">CI/CD</Badge>
                   </div>
-                  <Button variant="ghost" size="sm" asChild>
-                    <a href="https://github.com/NividDesai" target="_blank" rel="noreferrer">
+                  <Button variant="default" size="sm" className="gap-2" asChild>
+                    <a href="https://github.com/NividDesai/sentiment-bert-collab" target="_blank" rel="noreferrer">
                       <Github className="h-4 w-4 mr-2" />
                       Code
+                    </a>
+                  </Button>
+                </CardFooter>
+              </Card>
+              <Card className="flex flex-col hover:shadow-lg transition-shadow">
+                <CardHeader>
+                  <div className="flex items-center gap-2 mb-2">
+                    <Code className="h-5 w-5 text-primary" />
+                    <CardTitle className="text-xl">3D AI Avatar ChatBot</CardTitle>
+                  </div>
+                  <CardDescription>FastAPI · RAG · Three.js</CardDescription>
+                </CardHeader>
+                <CardContent className="flex-grow">
+                  <p className="text-sm text-muted-foreground">
+                    Full-stack conversational assistant with persona-aware LLM responses, retrieval-augmented context,
+                    lip-synced Ready Player Me avatars, and a Vite/React frontend streaming WebSockets from a FastAPI backend.
+                  </p>
+                </CardContent>
+                <CardFooter className="flex justify-between">
+                  <div className="flex gap-2">
+                    <Badge variant="outline">FastAPI</Badge>
+                    <Badge variant="outline">RAG</Badge>
+                    <Badge variant="outline">Three.js</Badge>
+                  </div>
+                  <Button variant="default" size="sm" className="gap-2" asChild>
+                    <a href="https://github.com/NividDesai/3D_Ai-Avatar-ChatBot" target="_blank" rel="noreferrer">
+                      <Github className="h-4 w-4 mr-2" />
+                      Code
+                    </a>
+                  </Button>
+                </CardFooter>
+              </Card>
+              <Card className="flex flex-col hover:shadow-lg transition-shadow">
+                <CardHeader>
+                  <div className="flex items-center gap-2 mb-2">
+                    <Code className="h-5 w-5 text-primary" />
+                    <CardTitle className="text-xl">3D Lead Gen Frontend</CardTitle>
+                  </div>
+                  <CardDescription>Vite · React · Three.js</CardDescription>
+                </CardHeader>
+                <CardContent className="flex-grow">
+                  <p className="text-sm text-muted-foreground">
+                    Immersive marketing site template for the AI Sales Enablement Suite featuring an animated hero,
+                    lead capture flows, and CTA sections tailored for B2B automation products.
+                  </p>
+                </CardContent>
+                <CardFooter className="flex justify-between">
+                  <div className="flex gap-2">
+                    <Badge variant="outline">React</Badge>
+                    <Badge variant="outline">Three.js</Badge>
+                    <Badge variant="outline">Tailwind</Badge>
+                  </div>
+                  <Button variant="default" size="sm" className="gap-2" asChild>
+                    <a href="https://ai-sales-enablement-suite-frontend.vercel.app/" target="_blank" rel="noreferrer">
+                      <Code className="h-4 w-4 mr-2" />
+                      Live
                     </a>
                   </Button>
                 </CardFooter>
