@@ -57,7 +57,7 @@ export default function Home() {
           <div className="flex flex-1 items-center justify-end space-x-2">
             <nav className="flex items-center space-x-1">
               <ModeToggle />
-              <a href="https://github.com/nivid-desai" target="_blank" rel="noreferrer" className="p-2">
+              <a href="https://github.com/NividDesai" target="_blank" rel="noreferrer" className="p-2">
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </a>
@@ -96,7 +96,7 @@ export default function Home() {
               </div>
               <div className="flex items-center justify-center">
                 <div className="relative h-[300px] w-[300px] overflow-hidden rounded-full border-4 border-primary shadow-xl">
-                  <Image src="/profile.png" alt="Nivid Desai" fill className="object-cover grayscale" priority />
+                  <Image src="/new.png" alt="Nivid Desai" fill className="object-cover grayscale" priority />
                 </div>
               </div>
             </div>
@@ -178,6 +178,21 @@ export default function Home() {
               Professional Experience
             </h2>
             <div className="grid gap-8 md:grid-cols-2">
+              <Card className="hover:shadow-lg transition-shadow">
+                <CardHeader>
+                  <CardTitle>AI Developer</CardTitle>
+                  <CardDescription>FPT Software | 10/2025 - Present · Remote (Paris, Île-de-France)</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <ul className="list-disc pl-5 space-y-2">
+                    <li>Developing an automated AI interview platform with dynamic question generation</li>
+                    <li>Implementing multimodal sentiment and content scoring for candidate responses</li>
+                    <li>Building reporting pipelines that deliver actionable insights for hiring teams</li>
+                    <li>Designing LLM workflows and optimizing backend latency by roughly 15–20%</li>
+                    <li>Leveraging Generative AI, Node.js, and additional supporting tooling</li>
+                  </ul>
+                </CardContent>
+              </Card>
               <Card className="hover:shadow-lg transition-shadow">
                 <CardHeader>
                   <CardTitle>LLM & RAG Engineer (Compliance Tech)</CardTitle>
@@ -287,6 +302,50 @@ export default function Home() {
               <Card className="flex flex-col hover:shadow-lg transition-shadow">
                 <CardHeader>
                   <div className="flex items-center gap-2 mb-2">
+                    <FileCode className="h-5 w-5 text-primary" />
+                    <CardTitle className="text-xl">AI Sales Enablement Suite</CardTitle>
+                  </div>
+                  <CardDescription>Express · TypeScript · OpenAI · Automation</CardDescription>
+                </CardHeader>
+                <CardContent className="flex-grow">
+                  <p className="text-sm text-muted-foreground">
+                    Automated CV parsing, lead intelligence, tailored B2B outreach generation, and an avatar-style chatbot
+                    in one unified workflow spanning AI, backend, and automation layers.
+                  </p>
+                </CardContent>
+                <CardFooter className="flex justify-between">
+                  <div className="flex gap-2">
+                    <Badge variant="outline">Express</Badge>
+                    <Badge variant="outline">TypeScript</Badge>
+                    <Badge variant="outline">OpenAI</Badge>
+                  </div>
+                </CardFooter>
+              </Card>
+              <Card className="flex flex-col hover:shadow-lg transition-shadow">
+                <CardHeader>
+                  <div className="flex items-center gap-2 mb-2">
+                    <BrainCircuit className="h-5 w-5 text-primary" />
+                    <CardTitle className="text-xl">Sports Video Analyzer</CardTitle>
+                  </div>
+                  <CardDescription>Next.js · Node/Express · ffmpeg · Whisper/GPT</CardDescription>
+                </CardHeader>
+                <CardContent className="flex-grow">
+                  <p className="text-sm text-muted-foreground">
+                    AI-enabled analysis of uploaded match footage with event detection, audio transcription, tactical insight
+                    generation, and real-time narration support for accessibility.
+                  </p>
+                </CardContent>
+                <CardFooter className="flex justify-between">
+                  <div className="flex gap-2">
+                    <Badge variant="outline">ffmpeg</Badge>
+                    <Badge variant="outline">Whisper</Badge>
+                    <Badge variant="outline">Next.js</Badge>
+                  </div>
+                </CardFooter>
+              </Card>
+              <Card className="flex flex-col hover:shadow-lg transition-shadow">
+                <CardHeader>
+                  <div className="flex items-center gap-2 mb-2">
                     <BrainCircuit className="h-5 w-5 text-primary" />
                     <CardTitle className="text-xl">YouTube Analytics AI</CardTitle>
                   </div>
@@ -305,7 +364,7 @@ export default function Home() {
                     <Badge variant="outline">ML</Badge>
                   </div>
                   <Button variant="ghost" size="sm" asChild>
-                    <a href="https://github.com/nivid-desai" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/NividDesai" target="_blank" rel="noreferrer">
                       <Github className="h-4 w-4 mr-2" />
                       Code
                     </a>
@@ -317,26 +376,26 @@ export default function Home() {
                 <CardHeader>
                   <div className="flex items-center gap-2 mb-2">
                     <FileCode className="h-5 w-5 text-primary" />
-                    <CardTitle className="text-xl">PDF Data Extractor</CardTitle>
+                    <CardTitle className="text-xl">Ethics Game</CardTitle>
                   </div>
-                  <CardDescription>Document Processing & Analysis</CardDescription>
+                  <CardDescription>Interactive AI Ethics Simulation</CardDescription>
                 </CardHeader>
                 <CardContent className="flex-grow">
                   <p className="text-sm text-muted-foreground">
-                    A tool that extracts text, images, links, and tables from PDF documents using advanced NLP
-                    techniques and BERT models.
+                    A browser-based role-play that challenges players with AI-driven dilemmas to practice responsible
+                    decision making.
                   </p>
                 </CardContent>
                 <CardFooter className="flex justify-between">
                   <div className="flex gap-2">
-                    <Badge variant="outline">Python</Badge>
-                    <Badge variant="outline">BERT</Badge>
-                    <Badge variant="outline">OCR</Badge>
+                    <Badge variant="outline">Next.js</Badge>
+                    <Badge variant="outline">Gamification</Badge>
+                    <Badge variant="outline">Ethics</Badge>
                   </div>
                   <Button variant="ghost" size="sm" asChild>
-                    <a href="https://github.com/nivid-desai" target="_blank" rel="noreferrer">
-                      <Github className="h-4 w-4 mr-2" />
-                      Code
+                    <a href="https://v0-ethics-game-cdvnoiykw3x-hy2uhptiy.vercel.app/" target="_blank" rel="noreferrer">
+                      <Code className="h-4 w-4 mr-2" />
+                      Live
                     </a>
                   </Button>
                 </CardFooter>
@@ -363,7 +422,7 @@ export default function Home() {
                     <Badge variant="outline">SQL</Badge>
                   </div>
                   <Button variant="ghost" size="sm" asChild>
-                    <a href="https://github.com/nivid-desai" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/NividDesai" target="_blank" rel="noreferrer">
                       <Github className="h-4 w-4 mr-2" />
                       Code
                     </a>
@@ -378,57 +437,41 @@ export default function Home() {
         <section id="skills" className="py-12 md:py-24 lg:py-32 bg-muted/50">
           <div className="container px-4 md:px-6">
             <h2 className="text-3xl font-bold leading-[1.1] sm:text-3xl md:text-6xl text-center mb-16">Skills</h2>
-            <Tabs defaultValue="ai" className="w-full">
-              <TabsList className="grid w-full grid-cols-2 md:grid-cols-4">
-                <TabsTrigger value="ai">AI & ML</TabsTrigger>
-                <TabsTrigger value="data">Data</TabsTrigger>
-                <TabsTrigger value="programming">Programming</TabsTrigger>
-                <TabsTrigger value="other">Other</TabsTrigger>
-              </TabsList>
-              <TabsContent value="ai" className="mt-6">
-                <div className="flex flex-wrap gap-2">
-                  <Badge className="px-3 py-1 text-sm">Artificial Intelligence</Badge>
-                  <Badge className="px-3 py-1 text-sm">Machine Learning</Badge>
-                  <Badge className="px-3 py-1 text-sm">Deep Learning</Badge>
-                  <Badge className="px-3 py-1 text-sm">NLP</Badge>
-                  <Badge className="px-3 py-1 text-sm">TensorFlow</Badge>
-                  <Badge className="px-3 py-1 text-sm">PyTorch</Badge>
-                  <Badge className="px-3 py-1 text-sm">Scikit-Learn</Badge>
-                  <Badge className="px-3 py-1 text-sm">Generative AI</Badge>
-                  <Badge className="px-3 py-1 text-sm">LLM</Badge>
-                </div>
-              </TabsContent>
-              <TabsContent value="data" className="mt-6">
-                <div className="flex flex-wrap gap-2">
-                  <Badge className="px-3 py-1 text-sm">Data Visualization</Badge>
-                  <Badge className="px-3 py-1 text-sm">Tableau</Badge>
-                  <Badge className="px-3 py-1 text-sm">Power BI</Badge>
-                  <Badge className="px-3 py-1 text-sm">Excel</Badge>
-                  <Badge className="px-3 py-1 text-sm">Matplotlib</Badge>
-                  <Badge className="px-3 py-1 text-sm">Seaborn</Badge>
-                  <Badge className="px-3 py-1 text-sm">Statistics</Badge>
-                  <Badge className="px-3 py-1 text-sm">SQL</Badge>
-                  <Badge className="px-3 py-1 text-sm">DBMS</Badge>
-                  <Badge className="px-3 py-1 text-sm">SQL Lite</Badge>
-                </div>
-              </TabsContent>
-              <TabsContent value="programming" className="mt-6">
-                <div className="flex flex-wrap gap-2">
-                  <Badge className="px-3 py-1 text-sm">Python</Badge>
-                  <Badge className="px-3 py-1 text-sm">R</Badge>
-                  <Badge className="px-3 py-1 text-sm">HTML</Badge>
-                  <Badge className="px-3 py-1 text-sm">Flask</Badge>
-                  <Badge className="px-3 py-1 text-sm">Cloud</Badge>
-                </div>
-              </TabsContent>
-              <TabsContent value="other" className="mt-6">
-                <div className="flex flex-wrap gap-2">
-                  <Badge className="px-3 py-1 text-sm">Web Design</Badge>
-                  <Badge className="px-3 py-1 text-sm">Ads Management</Badge>
-                  <Badge className="px-3 py-1 text-sm">Project Presentation</Badge>
-                </div>
-              </TabsContent>
-            </Tabs>
+            <div className="flex flex-wrap gap-2 justify-center">
+              <Badge className="px-3 py-1 text-sm">LLMs</Badge>
+              <Badge className="px-3 py-1 text-sm">RAG</Badge>
+              <Badge className="px-3 py-1 text-sm">Transformers</Badge>
+              <Badge className="px-3 py-1 text-sm">NLP</Badge>
+              <Badge className="px-3 py-1 text-sm">Deep Learning</Badge>
+              <Badge className="px-3 py-1 text-sm">TensorFlow</Badge>
+              <Badge className="px-3 py-1 text-sm">PyTorch</Badge>
+              <Badge className="px-3 py-1 text-sm">Scikit-Learn</Badge>
+              <Badge className="px-3 py-1 text-sm">OCR</Badge>
+              <Badge className="px-3 py-1 text-sm">MLOps</Badge>
+              <Badge className="px-3 py-1 text-sm">Power BI</Badge>
+              <Badge className="px-3 py-1 text-sm">Excel</Badge>
+              <Badge className="px-3 py-1 text-sm">Data Acquisition</Badge>
+              <Badge className="px-3 py-1 text-sm">Data Processing</Badge>
+              <Badge className="px-3 py-1 text-sm">Matplotlib</Badge>
+              <Badge className="px-3 py-1 text-sm">Seaborn</Badge>
+              <Badge className="px-3 py-1 text-sm">SQL</Badge>
+              <Badge className="px-3 py-1 text-sm">SQLite</Badge>
+              <Badge className="px-3 py-1 text-sm">Python</Badge>
+              <Badge className="px-3 py-1 text-sm">R</Badge>
+              <Badge className="px-3 py-1 text-sm">Java</Badge>
+              <Badge className="px-3 py-1 text-sm">FastAPI</Badge>
+              <Badge className="px-3 py-1 text-sm">Flask</Badge>
+              <Badge className="px-3 py-1 text-sm">HTML/CSS/JS</Badge>
+              <Badge className="px-3 py-1 text-sm">Web Design</Badge>
+              <Badge className="px-3 py-1 text-sm">Node/Express</Badge>
+              <Badge className="px-3 py-1 text-sm">TypeScript</Badge>
+              <Badge className="px-3 py-1 text-sm">AWS</Badge>
+              <Badge className="px-3 py-1 text-sm">Azure</Badge>
+              <Badge className="px-3 py-1 text-sm">Cloud</Badge>
+              <Badge className="px-3 py-1 text-sm">Docker</Badge>
+              <Badge className="px-3 py-1 text-sm">Systems Architecture</Badge>
+              <Badge className="px-3 py-1 text-sm">OS Management</Badge>
+            </div>
           </div>
         </section>
 
@@ -448,20 +491,28 @@ export default function Home() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
                     <ul className="list-disc pl-5 space-y-1">
-                      <li>Data modeling</li>
-                      <li>Data processing</li>
-                      <li>Data Science</li>
-                      <li>Development of Artificial Intelligence</li>
+                      <li>Development of AI</li>
+                      <li>Deep Learning</li>
                       <li>Machine Learning</li>
+                      <li>Data Science</li>
+                      <li>Data Processing</li>
+                      <li>Data Modeling</li>
+                      <li>Data Acquisition</li>
+                      <li>Information and Data Security</li>
+                      <li>Systems Architecture</li>
                     </ul>
                   </div>
                   <div>
                     <ul className="list-disc pl-5 space-y-1">
+                      <li>Cybersecurity</li>
+                      <li>Internet of Things</li>
                       <li>OS Management</li>
-                      <li>Data Visualization</li>
-                      <li>Python, R</li>
-                      <li>Business Intelligence</li>
+                      <li>Python, R, Algorithms</li>
                       <li>AI Law, AI Ethics</li>
+                      <li>DevOps</li>
+                      <li>Data Visualization</li>
+                      <li>Business Intelligence</li>
+                      <li>Cloud Tools</li>
                     </ul>
                   </div>
                 </div>
@@ -476,54 +527,258 @@ export default function Home() {
             <h2 className="text-3xl font-bold leading-[1.1] sm:text-3xl md:text-6xl text-center mb-16">
               Certifications
             </h2>
-            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+              {/* Oracle */}
               <Card className="hover:shadow-md transition-shadow">
                 <CardHeader className="pb-2">
-                  <CardTitle className="text-lg">Artificial Intelligence for Students</CardTitle>
-                  <CardDescription>LinkedIn</CardDescription>
+                  <CardTitle className="text-lg">OCI 2025 Certified AI Foundations Associate</CardTitle>
+                  <CardDescription>Oracle</CardDescription>
                 </CardHeader>
+                <CardFooter className="pt-0">
+                  <Button variant="link" className="px-0" asChild>
+                    <a
+                      href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=CC51884B11D49A9B8ECF1DE6677EF10E92DBC859B95358A5F5548EB86E604978"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Show credential
+                    </a>
+                  </Button>
+                </CardFooter>
               </Card>
               <Card className="hover:shadow-md transition-shadow">
                 <CardHeader className="pb-2">
-                  <CardTitle className="text-lg">IoT Foundations</CardTitle>
-                  <CardDescription>LinkedIn</CardDescription>
+                  <CardTitle className="text-lg">Oracle Fusion AI Agent Studio Certified Associate</CardTitle>
+                  <CardDescription>Oracle</CardDescription>
                 </CardHeader>
+                <CardFooter className="pt-0">
+                  <Button variant="link" className="px-0" asChild>
+                    <a
+                      href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=BBFF60F5F26EE00D0015ADD880CC821FFDF6EBE90EA3C391894B0775E94DD54D"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Show credential
+                    </a>
+                  </Button>
+                </CardFooter>
               </Card>
               <Card className="hover:shadow-md transition-shadow">
                 <CardHeader className="pb-2">
-                  <CardTitle className="text-lg">Statistics Foundations</CardTitle>
-                  <CardDescription>LinkedIn</CardDescription>
+                  <CardTitle className="text-lg">OCI 2025 Certified Generative AI Professional</CardTitle>
+                  <CardDescription>Oracle</CardDescription>
                 </CardHeader>
+                <CardFooter className="pt-0">
+                  <Button variant="link" className="px-0" asChild>
+                    <a
+                      href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=B7FEDDCE5880140A93B8155B5078479AE099E68879580B477A4895F263F25678"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Show credential
+                    </a>
+                  </Button>
+                </CardFooter>
+              </Card>
+
+              {/* Google */}
+              <Card className="hover:shadow-md transition-shadow">
+                <CardHeader className="pb-2">
+                  <CardTitle className="text-lg">Ads Management and Creation</CardTitle>
+                  <CardDescription>Google</CardDescription>
+                </CardHeader>
+                <CardFooter className="pt-0">
+                  <Button variant="link" className="px-0" asChild>
+                    <a href="#" aria-disabled="true">
+                      Show credential
+                    </a>
+                  </Button>
+                </CardFooter>
               </Card>
               <Card className="hover:shadow-md transition-shadow">
                 <CardHeader className="pb-2">
                   <CardTitle className="text-lg">Data Analytics</CardTitle>
                   <CardDescription>Google</CardDescription>
                 </CardHeader>
+                <CardFooter className="pt-0">
+                  <Button variant="link" className="px-0" asChild>
+                    <a href="#" aria-disabled="true">
+                      Show credential
+                    </a>
+                  </Button>
+                </CardFooter>
+              </Card>
+
+              {/* LinkedIn */}
+              <Card className="hover:shadow-md transition-shadow">
+                <CardHeader className="pb-2">
+                  <CardTitle className="text-lg">Cybersecurity Foundations</CardTitle>
+                  <CardDescription>LinkedIn</CardDescription>
+                </CardHeader>
+                <CardFooter className="pt-0">
+                  <Button variant="link" className="px-0" asChild>
+                    <a
+                      href="https://www.linkedin.com/learning/certificates/99d0bf1002f9a56eaad6b0f9ff63d7495ddafa288f67fda71676941e91915beb?u=91406298&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BzIogcOqsSxKXEdrkKL7tdQ%3D%3D"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Show credential
+                    </a>
+                  </Button>
+                </CardFooter>
               </Card>
               <Card className="hover:shadow-md transition-shadow">
                 <CardHeader className="pb-2">
-                  <CardTitle className="text-lg">Programming Foundations</CardTitle>
+                  <CardTitle className="text-lg">HR Foundations: Core Human Resources</CardTitle>
                   <CardDescription>LinkedIn</CardDescription>
                 </CardHeader>
+                <CardFooter className="pt-0">
+                  <Button variant="link" className="px-0" asChild>
+                    <a
+                      href="https://www.linkedin.com/learning/certificates/517dafcb80802489c0a8d6143c570fc5d03b2f82f0c1be752a8f4d91f37942ae?u=91406298&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BzIogcOqsSxKXEdrkKL7tdQ%3D%3D"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Show credential
+                    </a>
+                  </Button>
+                </CardFooter>
+              </Card>
+              <Card className="hover:shadow-md transition-shadow">
+                <CardHeader className="pb-2">
+                  <CardTitle className="text-lg">Python for Time Series Forecasting</CardTitle>
+                  <CardDescription>LinkedIn</CardDescription>
+                </CardHeader>
+                <CardFooter className="pt-0">
+                  <Button variant="link" className="px-0" asChild>
+                    <a
+                      href="https://www.linkedin.com/learning/certificates/e0fba17d9ebe4f36d6f0a3707be1d58393d05337320ab0aa1e715de39df63d7a?u=91406298&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BzIogcOqsSxKXEdrkKL7tdQ%3D%3D"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Show credential
+                    </a>
+                  </Button>
+                </CardFooter>
+              </Card>
+              <Card className="hover:shadow-md transition-shadow">
+                <CardHeader className="pb-2">
+                  <CardTitle className="text-lg">Business Analysis Foundations</CardTitle>
+                  <CardDescription>LinkedIn</CardDescription>
+                </CardHeader>
+                <CardFooter className="pt-0">
+                  <Button variant="link" className="px-0" asChild>
+                    <a
+                      href="https://www.linkedin.com/learning/certificates/8367a680a61512953a45a087392e0a57f26c019cf63ba5c6b4327d539931208b?u=91406298"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Show credential
+                    </a>
+                  </Button>
+                </CardFooter>
+              </Card>
+              <Card className="hover:shadow-md transition-shadow">
+                <CardHeader className="pb-2">
+                  <CardTitle className="text-lg">What Is Business Analysis?</CardTitle>
+                  <CardDescription>LinkedIn</CardDescription>
+                </CardHeader>
+                <CardFooter className="pt-0">
+                  <Button variant="link" className="px-0" asChild>
+                    <a
+                      href="https://www.linkedin.com/learning/certificates/a9469a2bb4fae9d092441b427378eed9038e3b2136fd77df5736ed2100bf2244?u=91406298"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Show credential
+                    </a>
+                  </Button>
+                </CardFooter>
+              </Card>
+              <Card className="hover:shadow-md transition-shadow">
+                <CardHeader className="pb-2">
+                  <CardTitle className="text-lg">Programming Foundations: Algorithms</CardTitle>
+                  <CardDescription>LinkedIn</CardDescription>
+                </CardHeader>
+                <CardFooter className="pt-0">
+                  <Button variant="link" className="px-0" asChild>
+                    <a
+                      href="https://www.linkedin.com/learning/certificates/6aceb3607b428cadf9faa6f6099cc8fe91e41f605120383cc38e3a342eecafc6?u=91406298"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Show credential
+                    </a>
+                  </Button>
+                </CardFooter>
               </Card>
               <Card className="hover:shadow-md transition-shadow">
                 <CardHeader className="pb-2">
                   <CardTitle className="text-lg">Python for Students</CardTitle>
                   <CardDescription>LinkedIn</CardDescription>
                 </CardHeader>
+                <CardFooter className="pt-0">
+                  <Button variant="link" className="px-0" asChild>
+                    <a
+                      href="https://www.linkedin.com/learning/certificates/998f6da457f9b8092bd8784862731d6bceb6a6e309f26a73302abdf6017c1b0b?u=91406298"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Show credential
+                    </a>
+                  </Button>
+                </CardFooter>
               </Card>
               <Card className="hover:shadow-md transition-shadow">
                 <CardHeader className="pb-2">
-                  <CardTitle className="text-lg">Excel Essential Training</CardTitle>
+                  <CardTitle className="text-lg">Statistics Foundations 1: The Basics</CardTitle>
                   <CardDescription>LinkedIn</CardDescription>
                 </CardHeader>
+                <CardFooter className="pt-0">
+                  <Button variant="link" className="px-0" asChild>
+                    <a
+                      href="https://www.linkedin.com/learning/certificates/2928f2f8aae2b2204725f5f97981bf668df3011ef03b186c0e5cce1dd4c00d20?u=91406298"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Show credential
+                    </a>
+                  </Button>
+                </CardFooter>
               </Card>
               <Card className="hover:shadow-md transition-shadow">
                 <CardHeader className="pb-2">
-                  <CardTitle className="text-lg">Ads Management and Creation</CardTitle>
-                  <CardDescription>Google</CardDescription>
+                  <CardTitle className="text-lg">Artificial Intelligence for Students</CardTitle>
+                  <CardDescription>LinkedIn</CardDescription>
                 </CardHeader>
+                <CardFooter className="pt-0">
+                  <Button variant="link" className="px-0" asChild>
+                    <a
+                      href="https://www.linkedin.com/learning/certificates/834bebf6a14665fd9e2bcde35fbd20abf353d007083907f2c978ddeaad57ab63?u=91406298"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Show credential
+                    </a>
+                  </Button>
+                </CardFooter>
+              </Card>
+              <Card className="hover:shadow-md transition-shadow">
+                <CardHeader className="pb-2">
+                  <CardTitle className="text-lg">IoT Foundations: Fundamentals</CardTitle>
+                  <CardDescription>LinkedIn</CardDescription>
+                </CardHeader>
+                <CardFooter className="pt-0">
+                  <Button variant="link" className="px-0" asChild>
+                    <a
+                      href="https://www.linkedin.com/learning/certificates/1bb236c4bcc69fdc494bd88a1be8a946f8daf6c8a8cf7b2f443f80980ae51e33?u=91406298"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Show credential
+                    </a>
+                  </Button>
+                </CardFooter>
               </Card>
             </div>
           </div>
@@ -590,12 +845,12 @@ export default function Home() {
                     <div className="flex items-center space-x-4">
                       <Github className="h-6 w-6 text-primary" />
                       <a
-                        href="https://github.com/nivid-desai"
+                        href="https://github.com/NividDesai"
                         target="_blank"
                         rel="noreferrer"
                         className="text-primary hover:underline"
                       >
-                        github.com/nivid-desai
+                        github.com/NividDesai
                       </a>
                     </div>
                   </div>

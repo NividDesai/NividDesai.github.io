@@ -28,7 +28,7 @@ I maintain multiple portfolio versions to showcase my work in different contexts
 
 - **Email**: desainivid05@gmail.com
 - **LinkedIn**: [linkedin.com/in/nivid-desai-](https://linkedin.com/in/nivid-desai-)
-- **GitHub**: [github.com/nivid-desai](https://github.com/nivid-desai)
+- **GitHub**: [github.com/NividDesai](https://github.com/NividDesai)
 
 ---
 
