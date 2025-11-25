@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     ],
   },
   icons: {
-    icon: "/favicon.png",
+    icon: "/new.png",
   },
   generator: 'v0.dev'
 }
