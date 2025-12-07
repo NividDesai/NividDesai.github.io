@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nivid-desai.github.io/sitemap.xml
