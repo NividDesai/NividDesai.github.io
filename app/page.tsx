@@ -419,19 +419,20 @@ export default function Home() {
                     <BrainCircuit className="h-5 w-5 text-primary" />
                     <CardTitle className="text-xl">Sentiment Analysis with BERT</CardTitle>
                   </div>
-                  <CardDescription>Production-Ready NLP Pipeline</CardDescription>
+                  <CardDescription>Production-Ready MLOps Pipeline</CardDescription>
                 </CardHeader>
                 <CardContent className="flex-grow">
                   <p className="text-sm text-muted-foreground">
-                    End-to-end MLOps system for binary app-review sentiment classification: BERT fine-tuning, automated
-                    testing with 100% coverage, CI/CD, evaluation dashboards, and inference scripts ready for deployment.
+                    Complete MLOps system for binary sentiment classification using BERT: automated testing with 100%
+                    coverage, CI/CD pipelines, Docker containerization with FastAPI, MongoDB/Redis integration,
+                    Prometheus/Grafana monitoring, and production-ready inference APIs achieving ~92% accuracy.
                   </p>
                 </CardContent>
                 <CardFooter className="flex justify-between">
                   <div className="flex gap-2">
                     <Badge variant="outline">BERT</Badge>
-                    <Badge variant="outline">PyTorch</Badge>
-                    <Badge variant="outline">CI/CD</Badge>
+                    <Badge variant="outline">Docker</Badge>
+                    <Badge variant="outline">MLOps</Badge>
                   </div>
                   <Button variant="default" size="sm" className="gap-2" asChild>
                     <a href="https://github.com/NividDesai/sentiment-bert-collab" target="_blank" rel="noreferrer">
@@ -493,6 +494,36 @@ export default function Home() {
                     <a href="https://ai-sales-enablement-suite-frontend.vercel.app/" target="_blank" rel="noreferrer">
                       <Code className="h-4 w-4 mr-2" />
                       Live
+                    </a>
+                  </Button>
+                </CardFooter>
+              </Card>
+              <Card className="flex flex-col hover:shadow-lg transition-shadow">
+                <CardHeader>
+                  <div className="flex items-center gap-2 mb-2">
+                    <BrainCircuit className="h-5 w-5 text-primary" />
+                    <CardTitle className="text-xl">Student Performance Prediction</CardTitle>
+                  </div>
+                  <CardDescription>Complete ML Pipeline · Regression Analysis</CardDescription>
+                </CardHeader>
+                <CardContent className="flex-grow">
+                  <p className="text-sm text-muted-foreground">
+                    Comprehensive machine learning pipeline analyzing 1,044+ students across UCI datasets. Implements
+                    complete workflow: EDA, feature engineering, 10 regression models (linear, tree-based, ensemble),
+                    two prediction scenarios (with/without intermediate grades achieving 82.7% and 23.1% R² respectively),
+                    hyperparameter tuning, and feature importance analysis identifying absences and failures as key factors.
+                  </p>
+                </CardContent>
+                <CardFooter className="flex justify-between">
+                  <div className="flex gap-2">
+                    <Badge variant="outline">Python</Badge>
+                    <Badge variant="outline">Scikit-learn</Badge>
+                    <Badge variant="outline">Jupyter</Badge>
+                  </div>
+                  <Button variant="default" size="sm" className="gap-2" asChild>
+                    <a href="https://github.com/NividDesai/Machine-Learning_score_prediction" target="_blank" rel="noreferrer">
+                      <Github className="h-4 w-4 mr-2" />
+                      Code
                     </a>
                   </Button>
                 </CardFooter>
